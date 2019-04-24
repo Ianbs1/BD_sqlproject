@@ -1,0 +1,86 @@
+INSERT INTO locadora values ('000001','Locadora1','rualoc1','49045280',2000,'Luzia');
+INSERT INTO telefone_locadora values ('000001','32315999','996009199');
+
+INSERT INTO funcionario values ('00001','000001');
+INSERT INTO funcionario values ('00002','000001');
+INSERT INTO funcionario values ('00003','000001');
+INSERT INTO funcionario values ('00004','000001');
+INSERT INTO funcionario values ('00005','000001');
+
+INSERT INTO gerente values ('00001',5000,'gerente','ge','ruagerente','49050300',9600);
+INSERT INTO telefone_gerente values ('00001','32179090','990009797');
+INSERT INTO emails_gerente values ('00001','gerente@hotmail.com','gerente@gmail.com');
+
+INSERT INTO Caixa values ('00002',1500,'caixa1','ca1','ruacaixa1','49070800',84);
+INSERT INTO telefone_caixa values  ('00002','32111111','99000000');
+INSERT INTO emails_caixa values  ('00002','caixa1@hotmail.com','caixa1@gmail.com');
+
+INSERT INTO Caixa values  ('00003',1500,'caixa2','ca2','ruacaixa2','49075000',99);
+INSERT INTO telefone_caixa values  ('00003','32999999','988775566');
+INSERT INTO emails_caixa values  ('00003','caixa2@hotmail.com','caixa2@gmail.com');
+
+INSERT INTO estoquista values  ('00004',1200,'estoquista1','es1','ruaestoquista1','49080999',88);
+INSERT INTO telefone_estoquista values  ('00004','32329999','9970000');
+INSERT INTO emails_estoquista values ('00004','estoquista1@hotmail.com','estoquista1@gmail.com');
+
+INSERT INTO estoquista values ('00005',1200,'estoquista2','es2','ruaestoquista2','49080998',87);
+INSERT INTO telefone_estoquista values  ('00005','32329988','9970011');
+INSERT INTO emails_estoquista values  ('00005','estoquista2@hotmail.com','estoquista2@gmail.com');
+
+INSERT INTO filme values  ('filme1','01','000001');
+INSERT INTO filme values  ('filme2','02','000001');
+INSERT INTO filme  values ('filme3','03','000001');
+INSERT INTO filme values  ('filme4','04','000001');
+INSERT INTO filme values ('filme5','05','000001');
+
+INSERT INTO copia values ('01','filme1','3','01/01/2001','06/01/2001');
+INSERT INTO copia values ('02','filme2','5','02/02/2002','07/02/2002');
+INSERT INTO copia values ('03','filme3','2','03/03/2003','08/03/2003');
+INSERT INTO copia values ('04','filme4','2','04/04/2004','09/04/2004');
+INSERT INTO copia values ('05','filme5','6','05/05/2005','10/05/2005');
+
+INSERT INTO cliente values ('00006');
+INSERT INTO cliente values ('00007');
+INSERT INTO cliente values ('00008');
+INSERT INTO cliente values ('00009');
+INSERT INTO cliente values ('00010');
+INSERT INTO cliente values ('00011');
+INSERT INTO cliente values ('012345');
+
+INSERT INTO titular values ('00006','titular1','titu1');
+INSERT INTO telefone_titular values  ('00006','32324444');
+INSERT INTO emails_titular values ('00006','titular1@gmail.com','titular1@hotmail.com');
+
+INSERT INTO titular values ('00007','titular2','titu2');
+INSERT INTO telefone_titular values  ('00007','32324444');
+INSERT INTO emails_titular values ('00007','titular1@gmail.com','titular1@hotmail.com');
+
+INSERT INTO titular values ('01235','titular0123' 'titu0123');
+INSERT INTO telefone_titular values ('012345' '123456789');
+INSERT INTO emails_titular values ('012345', 'titu123@gmail.com')
+--
+
+INSERT INTO dependente values ('00006','0001','dependente1','dep2');
+INSERT INTO telefone_dependente values ('0001','32324444');
+INSERT INTO emails_dependente values ('0001','dependente1@gmail.com');
+
+INSERT INTO dependente values ('00006','0002','dependente2','dep2');
+INSERT INTO telefone_dependente values ('0002','32325555');
+INSERT INTO emails_dependente values ('0002','dependente2@gmail.com');
+
+INSERT INTO dependente values ('00007','0003','dependente3','dep3');
+INSERT INTO telefone_dependente values ('0003','32889999');
+INSERT INTO emails_dependente values ('0003','dependente3@hotmail.com');
+
+INSERT INTO dependente values ('00007','0004','dependente4','dep4');
+INSERT INTO telefone_dependente values ('0004','32556677');
+INSERT INTO emails_dependente values ('0004','dependente4@gmail.com');
+
+INSERT INTO emprestimo values ('1001','01','00006');
+INSERT INTO emprestimo values ('1002','03','00006');
+INSERT INTO emprestimo values ('1003','04','00006');
+INSERT INTO emprestimo values ('1004','02','00006');
+INSERT INTO emprestimo values ('1005','01','00007');
+INSERT INTO emprestimo values ('1006','03','00007');
+INSERT INTO emprestimo values ('1007','02','00007');
+INSERT INTO emprestimo values ('1008','05','00007');
